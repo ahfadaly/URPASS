@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
 @font-face {
   font-family: myfont;
   src: url(../webfonts/alfont_com_Brando-Arabic-Text.otf) format("truetype");
@@ -16,7 +18,7 @@ html {
   --main-color: #02025f;
 }
 body {
-  font-family: myfont, B Nazanin, Tahoma !important;
+  font-family: "Cairo", sans-serif;
 }
 button:focus,
 a:focus,
@@ -37,7 +39,7 @@ textarea:focus {
   font-weight: 500;
 }
 .header .list li {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 15px;
 }
 .header .list li a.active {
   color: var(--main-color);
@@ -61,6 +63,11 @@ textarea:focus {
     background-color: #eaeaea;
   }
 }
+@media (max-width: 1200px) {
+  .header .list li {
+    padding: 0 0 0 8px;
+  }
+}
 /* end header ------- */
 
 /* start main-section ---- */
@@ -77,10 +84,12 @@ textarea:focus {
 .main-section .title h1 {
   font-size: 70px;
   font-weight: 700;
+  font-family: myfont, B Nazanin, Tahoma !important;
 }
 .main-section .title p {
-  font-size: 17px;
-  font-weight: 700;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 34.36px;
 }
 .main-section .title a {
@@ -115,7 +124,7 @@ textarea:focus {
 }
 .about-us .desc ul li::marker,
 .about-us .desc ul strong {
-  color: var(--main-color);
+  color: #131379;
 }
 .about-us .desc ul li span {
   font-weight: 600;
@@ -124,8 +133,9 @@ textarea:focus {
   .home-orders {
     height: auto !important;
   }
-  .about-us .desc h3 {
-    font-size: 35px;
+  .about-us .desc h3,
+  .home-orders .desc h3 {
+    font-size: 30px !important;
   }
   .about-us .desc ul li,
   .home-orders .desc ul li {
@@ -146,6 +156,10 @@ textarea:focus {
   display: flex;
   align-items: center;
   color: #ffff;
+}
+.home-orders .desc h3 {
+  font-weight: 700;
+  font-size: 40px;
 }
 .home-orders .desc ul li {
   margin-bottom: 10px;
@@ -249,6 +263,7 @@ textarea:focus {
   -ms-border-radius: 0;
   -o-border-radius: 0;
   color: #fff;
+  cursor: pointer;
 }
 .subscription .formdiv form button {
   background-color: #5757d1;
