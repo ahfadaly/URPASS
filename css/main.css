@@ -367,8 +367,9 @@ textarea:focus {
   background: linear-gradient(180deg, #0968da 0%, rgba(115, 115, 115, 0) 100%);
 }
 .packages .box .clubs img {
-  width: 36.38px;
-  height: 36.38px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 .packages .box h6 {
   font-weight: 600;
@@ -379,8 +380,9 @@ textarea:focus {
 .packages .box p {
   font-size: 14px;
 }
-.packages .box button {
-  background-color: #dadada;
+.packages button {
+  background-color: #f57920;
+  color: #fff;
 }
 .packages .box .package-3 span {
   position: absolute;
@@ -392,8 +394,5 @@ textarea:focus {
   padding: 8px 20px;
   cursor: pointer;
 }
-.packages .box .btn-package {
-  background-color: #f57920;
-  color: #fff;
-}
+
 /* end packages ==== */
