@@ -330,3 +330,70 @@ textarea:focus {
   text-decoration: none;
 }
 /* end footer -------- */
+
+/* start packages ==== */
+.packages .title h2 {
+  color: #3544cf;
+  font-size: 62.57px;
+  font-weight: 600;
+  line-height: 89.34px;
+}
+.packages .box {
+  box-shadow: 0px 0px 0px 1.43px #35485b24;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.packages .box .desc {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.packages .box .desc {
+  background: linear-gradient(180deg, #d9d9d9 0%, rgba(115, 115, 115, 0) 100%);
+}
+.packages .box .package-2 {
+  background: linear-gradient(180deg, #e4b91e 0%, rgba(115, 115, 115, 0) 100%);
+}
+.packages .box .package-3 {
+  background: linear-gradient(180deg, #6e7b98 0%, rgba(115, 115, 115, 0) 100%);
+  position: relative;
+}
+.packages .box .package-4 {
+  background: linear-gradient(180deg, #0968da 0%, rgba(115, 115, 115, 0) 100%);
+}
+.packages .box .clubs img {
+  width: 36.38px;
+  height: 36.38px;
+}
+.packages .box h6 {
+  font-weight: 600;
+  font-size: 14.43px;
+  font-weight: 400;
+  line-height: 27.03px;
+}
+.packages .box p {
+  font-size: 14px;
+}
+.packages .box button {
+  background-color: #dadada;
+}
+.packages .box .package-3 span {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  background-color: #f57920;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.packages .box .btn-package {
+  background-color: #f57920;
+  color: #fff;
+}
+/* end packages ==== */
