@@ -394,5 +394,20 @@ textarea:focus {
   padding: 8px 20px;
   cursor: pointer;
 }
-
+.packages .icon > div {
+  background-color: var(--main-color);
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.packages .icon > div svg {
+  font-size: 13px;
+}
+.packages .icon p {
+  color: #150a33;
+  font-weight: 500;
+}
 /* end packages ==== */
