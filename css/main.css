@@ -409,5 +409,6 @@ textarea:focus {
 .packages .icon p {
   color: #150a33;
   font-weight: 500;
+  font-size: 14px;
 }
 /* end packages ==== */
