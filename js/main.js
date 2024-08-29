@@ -9,10 +9,3 @@ navlinks.forEach((item) => {
     item.classList.add("active");
   });
 });
-
-// AOS ANIMATION ON SCROLL
-AOS.init({
-  duration: 1000,
-  easing: "ease",
-  once: true,
-});

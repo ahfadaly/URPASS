@@ -342,50 +342,56 @@ textarea:focus {
   line-height: 89.34px;
 }
 .packages .box {
-  box-shadow: 0px 0px 0px 1.43px #35485b24;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  background-color: #eff0ff;
 }
-.packages .box .desc {
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+.packages .box-2 {
+  background-color: #fd9042;
 }
-.packages .box .desc {
-  background: linear-gradient(180deg, #d9d9d9 0%, rgba(115, 115, 115, 0) 100%);
+.packages .box {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
-.packages .box .package-2 {
-  background: linear-gradient(180deg, #e4b91e 0%, rgba(115, 115, 115, 0) 100%);
-}
-.packages .box .package-3 {
-  background: linear-gradient(180deg, #6e7b98 0%, rgba(115, 115, 115, 0) 100%);
-  position: relative;
-}
-.packages .box .package-4 {
-  background: linear-gradient(180deg, #0968da 0%, rgba(115, 115, 115, 0) 100%);
+.packages .box:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 .packages .box .clubs img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   object-fit: contain;
+  display: block;
 }
 .packages .box h6 {
   font-weight: 600;
   font-size: 14.43px;
   font-weight: 400;
   line-height: 27.03px;
+  margin: 0;
 }
 .packages .box p {
   font-size: 14px;
+  margin: 0;
 }
 .packages button {
-  background-color: #f57920;
+  background-color: #0d0d70;
   color: #fff;
+  box-shadow: 0px 0px 0px 4.45px #5559dd66;
 }
 .packages .box .package-3 span {
   position: absolute;
@@ -397,21 +403,46 @@ textarea:focus {
   padding: 8px 20px;
   cursor: pointer;
 }
-.packages .icon > div {
+.packages .box-1 .icon > div {
   background-color: var(--main-color);
   color: #fff;
+}
+.packages .icon > div {
+  background-color: #fff;
+  color: var(--main-color);
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .packages .icon > div svg {
   font-size: 13px;
 }
 .packages .icon p {
-  color: #150a33;
   font-weight: 500;
+  font-size: 16px;
+}
+.packages .box-3 {
+  background: rgb(108, 108, 201);
+  background: linear-gradient(0deg, rgba(108, 108, 201, 1) 0%, rgba(1, 1, 92, 1) 100%);
+}
+.packages .box-3 .desc span {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background-color: #f57920;
+  color: #fff;
   font-size: 14px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.packages .box-3 button {
+  background-color: #f57920;
+}
+.packages .box-4 {
+  background-color: #3544cf;
 }
 /* end packages ==== */
