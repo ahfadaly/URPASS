@@ -363,6 +363,7 @@ textarea:focus {
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+  cursor: pointer;
 }
 .packages .box:hover {
   transform: scale(1.1);
@@ -386,7 +387,6 @@ textarea:focus {
 }
 .packages .box p {
   font-size: 14px;
-  margin: 0;
 }
 .packages button {
   background-color: #0d0d70;
@@ -418,12 +418,9 @@ textarea:focus {
 }
 
 .packages .icon > div svg {
-  font-size: 13px;
+  font-size: 10px;
 }
-.packages .icon p {
-  font-weight: 500;
-  font-size: 16px;
-}
+
 .packages .box-3 {
   background: rgb(108, 108, 201);
   background: linear-gradient(0deg, rgba(108, 108, 201, 1) 0%, rgba(1, 1, 92, 1) 100%);
