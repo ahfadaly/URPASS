@@ -386,7 +386,6 @@ textarea:focus {
 }
 .packages .box p {
   font-size: 14px;
-  white-space: nowrap;
 }
 .packages button {
   background-color: #0d0d70;
