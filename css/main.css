@@ -161,7 +161,6 @@ textarea:focus {
 .home-orders .desc h3 {
   font-weight: 700;
   font-size: 40px;
-  font-family: myfont;
 }
 .home-orders .desc ul li {
   margin-bottom: 10px;
@@ -387,6 +386,7 @@ textarea:focus {
 }
 .packages .box p {
   font-size: 14px;
+  white-space: nowrap;
 }
 .packages button {
   background-color: #0d0d70;
