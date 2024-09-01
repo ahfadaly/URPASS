@@ -390,8 +390,29 @@ textarea:focus {
 .packages button {
   background-color: #0d0d70;
   color: #fff;
-  box-shadow: 0px 0px 0px 4.45px #5559dd66;
+  border: none;
+  outline: none;
+  display: block;
+  cursor: pointer;
+  animation-name: ripple;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 4.45px #343ae066;
+  }
+
+  60% {
+    box-shadow: 0 0 0 5px #343ae066, 0 0 0 5px #4346a466;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 #343ae066, 0 0 0 0 #343ae066;
+  }
+}
+
 .packages .box .package-3 span {
   position: absolute;
   left: 15px;
